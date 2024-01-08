@@ -1231,8 +1231,6 @@
                     android:title="@string/use_plugin_glucose" />
                 <SwitchPreference
                     android:defaultValue="false"
-                    android:dependency="engineering_mode"
-                    android:enabled="false"
                     android:key="use_pluggable_alg_as_primary"
                     android:summary="@string/all_new_glucose_data_plugin"
                     android:switchTextOff="@string/short_off_text_for_switches"
